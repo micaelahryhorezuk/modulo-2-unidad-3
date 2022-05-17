@@ -1,0 +1,3 @@
+Utilizando como base los archivos que se encuentran en la carpeta "Material ejercicio" crear las reglas de CSS necesarias usando media queries para que en resoluciones menores a 800px de ancho se vea como la imagen que se adjunta como referencia.
+
+Subir a un repositorio público en GitHub y compartir la URL del mismo.

@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        color: black;
+        background: #37332F;
+        font-size: 100%;
+    }
+
+    #contenedor {
+        background: #8EA58D;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px 10px 0px;
+        background: #F9CD69;
+        border-bottom: 1px solid black;
+    }
+
+    ul {
+        list-style-type:none;
+        height: fit-content;
+        margin: 0;
+    }
+
+    li:nth-child(even) {
+        padding: 20px 0px 20px 0px;
+    }
+
+    p {
+        padding: 0px 0px 0px 5px;
+    }
+
+    h2 {
+        margin: 40px 0px 0px 5px;
+    }
+    
+    h1 {
+        margin: 0px 0px 20px 0px;
+    }
+
+    a {
+        color:black;
+        text-decoration: none;
+    }
+
+    section {
+        padding: 0px 0px 10px 0px;
+        background: #F0F3BF;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: justify;
+        border-bottom: 1px solid black;
+    }
+
+    aside {
+        padding: 0px 0px 10px 0px;
+        background: #CAC59D;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        color: #000;
+        background: #332F29;
+        font-size:100%;
+    }
+    
+    #contenedor {
+        width: 800px;
+        background: #8FA68E;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+    }
+    
+    nav {
+        background: #CC3910;
+        float: left;
+        width: 160px;
+    }
+    
+    ul {
+        list-style-type:none;
+    }
+    
+    a {
+        color:#F1F2C0;
+        text-decoration: none;
+    }
+    
+    section {
+        background: #F1F2C0;
+        float: left;
+        margin: 0 0 0 25px;
+        width: 400px;
+    }
+    
+    aside {
+        background: #CCC59E;
+        float: right;
+        width: 190px;
+    }
+}
